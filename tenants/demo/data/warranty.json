@@ -1,0 +1,57 @@
+{
+  "repair_default": {
+    "parts": "1 year warranty on replacement parts",
+    "labor": "90 days labor warranty",
+    "notes": "Covers workmanship and part defects only. Excludes damage due to neglect, misuse, or unrelated component failures."
+  },
+
+  "standard_replacement": {
+    "furnace": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "heat_exchanger": "20 years limited warranty",
+      "labor": "1 year labor warranty from installer",
+      "notes": "Registration with manufacturer required within 60 days for full coverage."
+    },
+    "air_conditioner": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "compressor": "10 years limited warranty",
+      "labor": "1 year labor warranty from installer",
+      "notes": "Registration with manufacturer required within 60 days for full coverage."
+    },
+    "heat_pump": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "compressor": "10 years limited warranty",
+      "labor": "1 year labor warranty from installer"
+    },
+    "tankless_water_heater": {
+      "parts": "12 years heat exchanger warranty",
+      "components": "5 years warranty on other components",
+      "labor": "1 year labor warranty from installer"
+    }
+  },
+
+  "premium_replacement": {
+    "furnace": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "heat_exchanger": "Lifetime limited warranty on heat exchanger",
+      "labor": "10 years labor warranty (extended plan)",
+      "notes": "Includes transferable coverage to new homeowner within first 5 years."
+    },
+    "air_conditioner": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "compressor": "10 years limited warranty on compressor",
+      "labor": "10 years labor warranty (extended plan)",
+      "notes": "Includes transferable coverage to new homeowner within first 5 years."
+    },
+    "heat_pump": {
+      "parts": "10 years manufacturer’s parts warranty",
+      "compressor": "10 years limited warranty on compressor",
+      "labor": "10 years labor warranty (extended plan)"
+    },
+    "tankless_water_heater": {
+      "parts": "15 years heat exchanger warranty",
+      "components": "5 years warranty on other components",
+      "labor": "10 years labor warranty (extended plan)"
+    }
+  }
+}

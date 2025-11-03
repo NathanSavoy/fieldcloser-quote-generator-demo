@@ -1,0 +1,108 @@
+{
+  "defaults": {
+    "currency": "CAD",
+    "labor_rate_per_hour_cad": 145,
+    "refrigerant_r410a_per_lb_cad": 120,
+    "refrigerant_r22_per_lb_cad": 180,
+    "service_call_fee_cad": 129
+  },
+
+  "maintenance": {
+    "tune_up_furnace": {
+      "price_cad": [149, 229],
+      "duration_hours": 1.0,
+      "includes": ["Full 21-point inspection", "Filter change (standard)", "CO test"]
+    },
+    "tune_up_ac": {
+      "price_cad": [149, 229],
+      "duration_hours": 1.0,
+      "includes": ["Full inspection", "Refrigerant pressure check", "Coil cleaning (light)"]
+    },
+    "duct_cleaning": {
+      "price_cad": [349, 499],
+      "duration_hours": 2.5,
+      "includes": ["Whole-home ducts", "Sanitizer fogging"]
+    }
+  },
+
+  "repairs": {
+    "furnace_ignitor_replacement": {
+      "parts_range_cad": [90, 150],
+      "labor_hours_range": [0.75, 1.25]
+    },
+    "ac_capacitor_replacement": {
+      "parts_range_cad": [80, 120],
+      "labor_hours_range": [0.5, 1.0]
+    },
+    "blower_motor_replacement": {
+      "parts_range_cad": [450, 700],
+      "labor_hours_range": [2.0, 3.0]
+    },
+    "condenser_fan_motor": {
+      "parts_range_cad": [280, 400],
+      "labor_hours_range": [1.5, 2.0]
+    },
+    "evaporator_coil_leak_repair": {
+      "parts_range_cad": [200, 400],
+      "labor_hours_range": [3.0, 4.5],
+      "notes": "Often better to replace coil/system"
+    }
+  },
+
+  "replacements": {
+    "furnace_standard_80_afue": {
+      "installed_range_cad": [3500, 4800],
+      "capacity_btu": "60,000–100,000 BTU",
+      "notes": "Basic single-stage, 10-year parts warranty"
+    },
+    "furnace_high_efficiency_95_afue": {
+      "installed_range_cad": [4800, 6500],
+      "capacity_btu": "60,000–100,000 BTU",
+      "notes": "Condensing furnace, ECM blower"
+    },
+    "ac_2_ton_13_seer": {
+      "installed_range_cad": [3800, 5200],
+      "notes": "Standard builder grade, 10-year parts warranty"
+    },
+    "ac_2_ton_16_seer": {
+      "installed_range_cad": [5200, 7000],
+      "notes": "High-efficiency, quieter operation"
+    },
+    "heat_pump_2_ton_cold_climate": {
+      "installed_range_cad": [8500, 12000],
+      "notes": "Eligible for Canada Greener Homes Grant / Enbridge rebates"
+    },
+    "tankless_water_heater": {
+      "installed_range_cad": [4500, 6500],
+      "notes": "Condensing model, up to 199k BTU"
+    }
+  },
+
+  "iaq_addons": {
+    "uv_light": {
+      "parts_range_cad": [350, 550],
+      "labor_hours_range": [1.0, 1.5]
+    },
+    "humidifier_bypass": {
+      "parts_range_cad": [300, 450],
+      "labor_hours_range": [1.0, 2.0]
+    },
+    "media_air_cleaner": {
+      "parts_range_cad": [450, 650],
+      "labor_hours_range": [1.0, 1.5]
+    },
+    "thermostat_replacement_basic": {
+      "parts_range_cad": [80, 150],
+      "labor_hours_range": [0.5, 1.0]
+    },
+    "thermostat_replacement_smart": {
+      "parts_range_cad": [250, 400],
+      "labor_hours_range": [1.0, 1.5]
+    }
+  },
+
+  "regional_overrides": {
+    "N2L": { "labor_rate_per_hour_cad": 150 }, 
+    "N2K": { "labor_rate_per_hour_cad": 140 }
+  }
+}

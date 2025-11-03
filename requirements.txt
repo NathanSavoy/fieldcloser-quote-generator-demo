@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+jinja2
+pydantic
+openai
+python-multipart
+requests
+streamlit
+gradio
+playwright

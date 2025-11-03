@@ -1,0 +1,26 @@
+{
+  "replacement_policy": {
+    "lifespan_years": {
+      "furnace": 18,
+      "air_conditioner": 15,
+      "heat_pump": 14,
+      "water_heater_tank": 12,
+      "tankless": 18
+    },
+    "age_replace_top_tiers_at_or_over": {
+      "furnace": 16,
+      "air_conditioner": 13,
+      "heat_pump": 12,
+      "water_heater_tank": 10
+    },
+    "critical_failures": [
+      "cracked heat exchanger",
+      "refrigerant leak in evaporator coil",
+      "compressor shorted to ground",
+      "seized inducer motor with CO risk",
+      "tank leaking from base"
+    ],
+    "50_percent_rule": true,
+    "omit_low_tiers_if_replacement_required": true
+  }
+}
