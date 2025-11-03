@@ -32,7 +32,7 @@ for noisy in ["httpx", "httpcore", "openai", "urllib3"]:
     logging.getLogger(noisy).setLevel(logging.WARNING)
 
 # -------------------- Paths ----------------------
-TENANT = "CrossHC" # Specify provider for customized catalogue
+TENANT = "demo" # Specify provider for customized catalogue
 DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.join(DIR, "tenants")
 TEMPLATES_DIR = os.path.join(BASE_DIR, TENANT, "templates")
